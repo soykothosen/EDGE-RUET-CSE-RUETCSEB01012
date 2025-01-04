@@ -13,8 +13,9 @@ from django.http import HttpResponse
 def home(request):
     return HttpResponse("<h1>Hello World</h1>")
 
-# def home(request):
-#     return render(request,'home.html',{'name': 'Test Name'})
+def htmlpage(request):
+
+    return render(request,'home.html',{'name': 'RUET'})
 
 # def newpage(request):
 #     return render(request,'index.html',{'name': 'Test Name'})

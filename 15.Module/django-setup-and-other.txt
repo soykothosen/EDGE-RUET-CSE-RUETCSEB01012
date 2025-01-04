@@ -17,12 +17,13 @@ cd myproject
 python manage.py runserver
 
 App Creation
-python manage.py startapp app01
+python manage.py startapp app
 
 
-project - url.py change
-app - create url.py 
+
+app - create urls.py code write 
 app - views - code write
+project - url.py change
 
 
 cotact route creation - h1 tag response
