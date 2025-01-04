@@ -10,7 +10,7 @@ pip install django
 
 Project Creation
 
-django-admin startproject myproject01
+django-admin startproject myproject
 
 cd myproject
 
