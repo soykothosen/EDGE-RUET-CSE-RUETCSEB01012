@@ -10,14 +10,14 @@ pip install django
 
 Project Creation
 
-django-admin startproject myproject
+django-admin startproject batch12project
 
 cd myproject
 
 python manage.py runserver
 
 App Creation
-python manage.py startapp app
+python manage.py startapp app01
 
 
 
