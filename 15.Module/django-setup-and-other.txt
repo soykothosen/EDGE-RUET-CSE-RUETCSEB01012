@@ -37,4 +37,18 @@ import os
 TEMPLATES = ['DIRS': [os.path.join(BASE_DIR,'templetes')],
 
 
+Free HTML Temple Download
+
+in project folder static folder creation
+
+change in project setting file in static section
+
+command
 python manage.py collectstatic
+
+
+in html file on load static 
+
+all satic link change 
+
+{% static 'assets/   ' %}
