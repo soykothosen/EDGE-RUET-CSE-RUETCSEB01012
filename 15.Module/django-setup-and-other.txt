@@ -6,11 +6,11 @@ pip --version
 
 django-admin --version
 
-pip install django
+pip install django 
 
 Project Creation
 
-django-admin startproject batch12project
+django-admin startproject project01
 
 cd myproject
 
