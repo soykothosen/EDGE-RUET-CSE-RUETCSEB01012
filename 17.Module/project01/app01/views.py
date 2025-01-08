@@ -11,3 +11,12 @@ def home(request):
 
 def newhome(request):
     return render(request,'home.html')
+
+def dynamic(request):
+    return render(request,'base.html',{'name': 'RUET'})
+
+def other(request):
+    return render(request,'other.html',{'name': 'RUET'})
+
+def index(request):
+    return render(request,'index.html')
