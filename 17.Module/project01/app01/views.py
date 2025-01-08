@@ -8,3 +8,6 @@ from django.http import HttpResponse
 
 def home(request):
     return HttpResponse("<h1>Hello World</h1>")
+
+def newhome(request):
+    return render(request,'home.html')
