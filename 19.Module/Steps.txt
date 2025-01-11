@@ -1,0 +1,3 @@
+Model, Django Admin
+
+Project Creation
